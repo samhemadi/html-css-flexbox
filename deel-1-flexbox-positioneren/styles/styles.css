@@ -1,1 +1,15 @@
 /*Schrijf hier jouw CSS*/
+/* ------------------- Opdracht 1:  -------------------  */
+.opdracht-1 .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.opdracht-2 .flex-container {
+    display: flex;
+}
+
+.opdracht-2 .flex-item {
+    flex-basis: 240px;
+}
