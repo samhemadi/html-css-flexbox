@@ -1,1 +1,64 @@
-/*Schrijf hier jouw css*/
+/*CSS reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F2F3D9;
+    font-family: Avenir, Arial, sans-serif;
+    color: #030027;
+    text-align: center;
+}
+
+.company-brand-name {
+    font-weight: bold;
+
+    text-transform: uppercase;
+}
+
+.navigation {
+    background-color: #030027;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 30px 40px;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    flex-basis: 400px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.about-us-section {
+    padding: 40px;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.info-article {
+    background-color: #C16E70;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-basis: 280px;
+    flex-grow: 0;
+    flex-shrink: 1;
+}
